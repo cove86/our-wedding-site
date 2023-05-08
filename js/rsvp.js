@@ -11,6 +11,7 @@ window.addEventListener("load", function () {
       body: data,
     }).then(() => {
       alert("Thank you, we look forward to seeing you!");
+      form.reset();
     });
   });
 });
