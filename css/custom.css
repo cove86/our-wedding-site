@@ -72,7 +72,7 @@ h3 {
   font-size: 2rem;
 }
 
-#hero {
+.hero {
   background-image: url("../img/background.jpg");
   background-position: center;
   background-size: cover;
@@ -80,8 +80,18 @@ h3 {
   /* padding: 2rem; */
 }
 
-.where_img {
+.us_div {
+  text-align: center;
+}
+
+.us_img {
   max-width: 50%;
+  max-height: 50rem;
+  border-radius: 10px;
+}
+
+.where_img {
+  max-width: 75%;
   border-radius: 10px;
 }
 
@@ -124,6 +134,12 @@ h3 {
   color: inherit;
   font-size: 2rem;
   font-style: italic;
+}
+
+.location_img {
+  max-width: 50%;
+  border-radius: 10px;
+  /* max-height: 50rem; */
 }
 
 /*--------------------------------------------------------------
