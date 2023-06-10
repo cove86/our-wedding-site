@@ -11,7 +11,7 @@ let htmlHours = document.getElementById("hours").firstElementChild;
 let htmlMins = document.getElementById("minutes").firstElementChild;
 let htmlSecs = document.getElementById("seconds").firstElementChild;
 
-const weddingDay = "Jun 6, 2024 00:00:00";
+const weddingDay = "Jun 6, 2024 13:00:00";
 let countDownDate = new Date(weddingDay).getTime();
 
 let countDownClock = setInterval(function () {
